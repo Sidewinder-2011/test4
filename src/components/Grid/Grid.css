@@ -1,0 +1,34 @@
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 35px;
+}
+.movie-box {
+  border-radius: 5px;
+
+  /* border: 3px solid white; */
+}
+.movie-text {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.focused .movie-text {
+  color: yellow;
+}
+.movie-details {
+  width: 150px;
+  margin: 20px;
+}
+.movie-details img {
+  width: 100%;
+}
+.focused {
+  /* box-shadow: 13px 14px 11px rgb(224, 224, 119);
+  border: 1px solid white; */
+  transform: scale(1.1);
+  transition: 0.3s all ease-in;
+  box-shadow: 0px 0px 5px 15px #fff76e2b;
+}
